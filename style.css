@@ -1,0 +1,33 @@
+body {
+  background-color: #f0e9e9;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 55px;
+}
+
+#clear {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+#clear:hover {
+  color: red;
+}
+
+.sidebar {
+    position: absolute;  
+    top: 10px;
+    right: 50px;  
+    z-index: 5;
+}
+
+.gridContainer {
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    width: 600px;
+    height: 600px;
+    border: 10px solid black;
+}
